@@ -1,6 +1,6 @@
 # CodeNova - Sitio Web Corporativo
 
-![CodeNova Logo](img/fo2.png) 
+![CodeNova Logo](img/frame.png) 
 
 ## Descripción
 
