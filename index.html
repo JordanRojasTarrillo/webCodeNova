@@ -1,50 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
+=======
+    <meta name="description" content="CodeNova - Agencia de desarrollo web y diseño digital especializada en crear experiencias digitales que transforman marcas">
+    <meta name="keywords" content="desarrollo web, diseño web, SEO, marketing digital, diseño responsivo">
+    <meta name="author" content="CodeNova">
+    <title>CodeNova | Agencia de Desarrollo Web y Diseño Digital</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Preconectar a dominios externos para mejorar rendimiento -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- AOS CSS para animaciones al scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Carga diferida de YouTube API -->
+    <script defer src="https://www.youtube.com/iframe_api"></script>
+>>>>>>> 30bd355 (Actualizando index.html)
 </head>
 <body>
     <!-- Navbar con efecto de transparencia -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" aria-label="Navegación principal">
         <div class="container">
             <a class="navbar-brand" href="#hero">
-                <i class="fas fa-code me-2"></i>CodeNova
+                <i class="fas fa-code me-2" aria-hidden="true"></i>CodeNova
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Alternar navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#hero">
-                            <i class="fas fa-home me-1"></i> Inicio
+                            <i class="fas fa-home me-1" aria-hidden="true"></i> Inicio
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">
-                            <i class="fas fa-users me-1"></i> Nosotros
+                            <i class="fas fa-users me-1" aria-hidden="true"></i> Nosotros
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">
-                            <i class="fas fa-cogs me-1"></i> Servicios
+                            <i class="fas fa-cogs me-1" aria-hidden="true"></i> Servicios
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">
-                            <i class="fas fa-briefcase me-1"></i> Portafolio
+                            <i class="fas fa-briefcase me-1" aria-hidden="true"></i> Portafolio
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#testimonials">
-                            <i class="fas fa-comment-dots me-1"></i> Testimonios
+                            <i class="fas fa-comment-dots me-1" aria-hidden="true"></i> Testimonios
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">
-                            <i class="fas fa-envelope me-1"></i> Contacto
+                            <i class="fas fa-envelope me-1" aria-hidden="true"></i> Contacto
                         </a>
                     </li>
                 </ul>
@@ -53,14 +77,11 @@
     </nav>
 
     <header id="hero" class="hero-section">
-
-
-        <div id="youtube-background"></div>
-        
+        <div id="youtube-background" aria-hidden="true"></div>
         <div class="overlay"></div>
         <div class="container text-center text-white">
             <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="display-3 fw-bold mb-4">Bienvenido a Mi Sitio</h1>
+                <h1 class="display-3 fw-bold mb-4">Bienvenido a CodeNova</h1>
                 <p class="lead mb-5">Diseñamos experiencias digitales que transforman marcas</p>
                 <a href="#about" class="btn btn-primary btn-lg me-3">Conócenos</a>
                 <a href="#contact" class="btn btn-outline-light btn-lg">Contáctanos</a>
@@ -73,7 +94,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
                     <div class="about-img-container">
-                        <img src="img/lan1.jpg" alt="">
+                        <img src="img/lan1.jpg" alt="Equipo de CodeNova trabajando" width="600" height="400" loading="lazy">
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
@@ -83,16 +104,16 @@
                     </div>
                     <p class="lead">Somos un equipo apasionado por crear soluciones digitales innovadoras que ayudan a nuestros clientes a alcanzar sus objetivos.</p>
                     <p>Nuestra misión es transformar ideas en realidades digitales, optimizando procesos y brindando experiencias únicas a cada usuario. Nos comprometemos con la excelencia, la innovación constante y la satisfacción de nuestros clientes, asegurando que cada solución sea intuitiva, funcional y escalable.</p>
-                    <div class="d-flex mt-4">
-                        <div class="me-4">
+                    <div class="d-flex flex-wrap mt-4">
+                        <div class="me-4 mb-3">
                             <h3 class="fw-bold text-primary">10+</h3>
                             <p>Años de experiencia</p>
                         </div>
-                        <div class="me-4">
+                        <div class="me-4 mb-3">
                             <h3 class="fw-bold text-primary">250+</h3>
                             <p>Proyectos completados</p>
                         </div>
-                        <div>
+                        <div class="mb-3">
                             <h3 class="fw-bold text-primary">50+</h3>
                             <p>Clientes satisfechos</p>
                         </div>
@@ -111,54 +132,54 @@
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card">
+                    <div class="service-card h-100">
                         <div class="icon-box">
-                            <i class="fas fa-laptop-code"></i>
+                            <i class="fas fa-laptop-code" aria-hidden="true"></i>
                         </div>
                         <h4>Desarrollo Web</h4>
                         <p>Creamos sitios web atractivos y funcionales que representan tu marca y conectan con tu audiencia.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-card">
+                    <div class="service-card h-100">
                         <div class="icon-box">
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
                         </div>
                         <h4>Diseño Responsivo</h4>
                         <p>Aseguramos que tu sitio se vea perfecto en todos los dispositivos, desde móviles hasta escritorio.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-card">
+                    <div class="service-card h-100">
                         <div class="icon-box">
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-search" aria-hidden="true"></i>
                         </div>
                         <h4>SEO</h4>
                         <p>Optimizamos tu sitio para los motores de búsqueda para aumentar tu visibilidad online.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-                    <div class="service-card">
+                    <div class="service-card h-100">
                         <div class="icon-box">
-                            <i class="fas fa-paint-brush"></i>
+                            <i class="fas fa-paint-brush" aria-hidden="true"></i>
                         </div>
                         <h4>Diseño Gráfico</h4>
                         <p>Creamos identidades visuales que capturan la esencia de tu marca y atraen a tu público objetivo.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-                    <div class="service-card">
+                    <div class="service-card h-100">
                         <div class="icon-box">
-                            <i class="fas fa-chart-line"></i>
+                            <i class="fas fa-chart-line" aria-hidden="true"></i>
                         </div>
                         <h4>Marketing Digital</h4>
                         <p>Desarrollamos estrategias efectivas para aumentar tu presencia online y generar más leads.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-                    <div class="service-card">
+                    <div class="service-card h-100">
                         <div class="icon-box">
-                            <i class="fas fa-headset"></i>
+                            <i class="fas fa-headset" aria-hidden="true"></i>
                         </div>
                         <h4>Soporte Técnico</h4>
                         <p>Ofrecemos asistencia continua para asegurar que tu sitio funcione sin problemas.</p>
@@ -179,72 +200,72 @@
                 <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="img/web1.jpg" alt="Proyecto 1" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img src="img/web1.jpg" alt="Proyecto de sitio web corporativo" class="img-fluid" width="400" height="300" loading="lazy">
                         </div>
                         <div class="portfolio-info">
                             <h4>Proyecto Web</h4>
                             <p>Diseño y Desarrollo</p>
-                            <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            <a href="portfolio/proyecto1.html" class="btn btn-outline-light btn-sm">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="img/web2.png" alt="Proyecto 1" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img src="img/web2.png" alt="Aplicación móvil para gestión de tareas" class="img-fluid" width="400" height="300" loading="lazy">
                         </div>
                         <div class="portfolio-info">
                             <h4>Aplicación Móvil</h4>
                             <p>UI/UX Design</p>
-                            <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            <a href="portfolio/proyecto2.html" class="btn btn-outline-light btn-sm">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="img/web3.jpg" alt="Proyecto 1" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img src="img/web3.jpg" alt="Rediseño de identidad corporativa" class="img-fluid" width="400" height="300" loading="lazy">
                         </div>
                         <div class="portfolio-info">
                             <h4>Rediseño de Marca</h4>
                             <p>Branding</p>
-                            <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            <a href="portfolio/proyecto3.html" class="btn btn-outline-light btn-sm">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="img/web4.png" alt="Proyecto 1" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img src="img/web4.png" alt="Tienda online de productos artesanales" class="img-fluid" width="400" height="300" loading="lazy">
                         </div>
                         <div class="portfolio-info">
                             <h4>E-commerce</h4>
                             <p>Desarrollo Web</p>
-                            <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            <a href="portfolio/proyecto4.html" class="btn btn-outline-light btn-sm">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="img/web5.jpg" alt="Proyecto 1" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img src="img/web5.jpg" alt="Campaña de marketing digital" class="img-fluid" width="400" height="300" loading="lazy">
                         </div>
                         <div class="portfolio-info">
                             <h4>Campaña Digital</h4>
                             <p>Marketing</p>
-                            <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            <a href="portfolio/proyecto5.html" class="btn btn-outline-light btn-sm">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="600">
                     <div class="portfolio-item">
                         <div class="portfolio-img">
-                            <img src="img/web6.png" alt="Proyecto 1" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img src="img/web6.png" alt="Aplicación web para gestión de proyectos" class="img-fluid" width="400" height="300" loading="lazy">
                         </div>
                         <div class="portfolio-info">
                             <h4>Aplicación Web</h4>
                             <p>Desarrollo Full-Stack</p>
-                            <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            <a href="portfolio/proyecto6.html" class="btn btn-outline-light btn-sm">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
@@ -261,13 +282,13 @@
             </div>
             <div class="row testimonial-slider">
                 <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card h-100">
                         <div class="testimonial-content">
                             <p>"Excelente trabajo. El equipo entendió perfectamente nuestras necesidades y entregó un producto que superó nuestras expectativas."</p>
                         </div>
                         <div class="testimonial-author d-flex align-items-center mt-3">
                             <div class="author-img">
-                                <img src="img/fo1.png" alt="Proyecto 1">
+                                <img src="img/fo1.png" alt="Foto de María González" width="60" height="60" loading="lazy">
                             </div>
                             <div class="author-info ms-3">
                                 <h5 class="mb-0">María González</h5>
@@ -277,13 +298,13 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card h-100">
                         <div class="testimonial-content">
                             <p>"Profesionales de primer nivel. Nuestro sitio web ha aumentado significativamente nuestras ventas y la experiencia del usuario es excepcional."</p>
                         </div>
                         <div class="testimonial-author d-flex align-items-center mt-3">
                             <div class="author-img">
-                                <img src="img/fo2.png" alt="Proyecto 1">
+                                <img src="img/fo2.png" alt="Foto de Carlos Rodríguez" width="60" height="60" loading="lazy">
                             </div>
                             <div class="author-info ms-3">
                                 <h5 class="mb-0">Carlos Rodríguez</h5>
@@ -293,13 +314,13 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card h-100">
                         <div class="testimonial-content">
                             <p>"Trabajar con este equipo ha sido una experiencia increíble. Son creativos, eficientes y siempre dispuestos a ir más allá para satisfacer al cliente."</p>
                         </div>
                         <div class="testimonial-author d-flex align-items-center mt-3">
                             <div class="author-img">
-                                <img src="img/fo3.png" alt="Proyecto 1">
+                                <img src="img/fo3.png" alt="Foto de Laura Martínez" width="60" height="60" loading="lazy">
                             </div>
                             <div class="author-info ms-3">
                                 <h5 class="mb-0">Laura Martínez</h5>
@@ -325,44 +346,52 @@
                     <div class="contact-info mt-4">
                         <div class="d-flex mb-3">
                             <div class="icon-box me-3">
-                                <i class="fas fa-map-marker-alt"></i>
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                             </div>
                             <p>123 Calle Principal, Ciudad, País</p>
                         </div>
                         <div class="d-flex mb-3">
                             <div class="icon-box me-3">
-                                <i class="fas fa-phone-alt"></i>
+                                <i class="fas fa-phone-alt" aria-hidden="true"></i>
                             </div>
-                            <p>+123 456 7890</p>
+                            <p><a href="tel:+1234567890" class="text-decoration-none">+123 456 7890</a></p>
                         </div>
                         <div class="d-flex mb-3">
                             <div class="icon-box me-3">
-                                <i class="fas fa-envelope"></i>
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
                             </div>
-                            <p>info@tusitio.com</p>
+                            <p><a href="mailto:info@codenova.com" class="text-decoration-none">info@codenova.com</a></p>
                         </div>
                     </div>
                     <div class="social-links mt-4">
-                        <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://facebook.com/codenova" aria-label="Facebook" class="me-2"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/codenova" aria-label="Twitter" class="me-2"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://instagram.com/codenova" aria-label="Instagram" class="me-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/company/codenova" aria-label="LinkedIn" class="me-2"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="contact-form-container">
-                        <form id="contactForm">
+                        <form id="contactForm" action="procesar-formulario.php" method="POST">
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Nombre completo" required>
+                                <label for="nombre" class="visually-hidden">Nombre completo</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre completo" required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="Correo electrónico" required>
+                                <label for="email" class="visually-hidden">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico" required>
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Asunto">
+                                <label for="asunto" class="visually-hidden">Asunto</label>
+                                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto">
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+                                <label for="mensaje" class="visually-hidden">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="privacidad" required>
+                                <label class="form-check-label" for="privacidad">Acepto la <a href="politica-privacidad.html">política de privacidad</a></label>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensaje</button>
                         </form>
@@ -377,17 +406,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <h5 class="mb-3">Mi Sitio</h5>
+                    <h5 class="mb-3">CodeNova</h5>
                     <p>Creamos experiencias digitales que transforman marcas y conectan con las audiencias.</p>
                 </div>
                 <div class="col-md-2 mb-4 mb-md-0">
                     <h5 class="mb-3">Enlaces</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#hero">Inicio</a></li>
-                        <li><a href="#about">Nosotros</a></li>
-                        <li><a href="#services">Servicios</a></li>
-                        <li><a href="#portfolio">Portafolio</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#hero" class="text-decoration-none">Inicio</a></li>
+                        <li><a href="#about" class="text-decoration-none">Nosotros</a></li>
+                        <li><a href="#services" class="text-decoration-none">Servicios</a></li>
+                        <li><a href="#portfolio" class="text-decoration-none">Portafolio</a></li>
+                        <li><a href="#contact" class="text-decoration-none">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-4 mb-md-0">
@@ -403,10 +432,11 @@
                 <div class="col-md-3">
                     <h5 class="mb-3">Boletín</h5>
                     <p>Suscríbete para recibir nuestras últimas noticias</p>
-                    <form>
+                    <form action="suscribir.php" method="POST">
                         <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="Tu email">
-                            <button class="btn btn-primary" type="button">Suscribir</button>
+                            <label for="newsletter-email" class="visually-hidden">Tu email</label>
+                            <input type="email" class="form-control" id="newsletter-email" name="email" placeholder="Tu email" required>
+                            <button class="btn btn-primary" type="submit">Suscribir</button>
                         </div>
                     </form>
                 </div>
@@ -414,22 +444,25 @@
             <hr class="my-4">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <p class="mb-0">&copy; 2023 CodeNova . Todos los derechos reservados.</p>
+                    <p class="mb-0">&copy; 2023 CodeNova. Todos los derechos reservados.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="social-links">
-                        <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://facebook.com/codenova" aria-label="Facebook" class="me-2"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/codenova" aria-label="Twitter" class="me-2"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://instagram.com/codenova" aria-label="Instagram" class="me-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/company/codenova" aria-label="LinkedIn" class="me-2"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
+
+
